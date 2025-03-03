@@ -1,14 +1,14 @@
 mixin topic-card(type, topic, image)
-    .main_card
-        .main_card-img
-            img.main_card-picture(src=image alt="Изображение")
+    .main__card
+        .main__card-img
+            img.main__card-picture(src=image alt="Изображение")
         .main__card-type=type 
-        .main_card-topic=topic
-        .main_card-user
-            span.main_card-author Niek Bove
-            span.main_card-date April, 8, 2018
-            span.main_card-views 3K Views
-        .main_card-description Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner
+        .main__card-topic=topic
+        .main__card-user
+            span.main__card-author Niek Bove
+            span.main__card-date April, 8, 2018
+            span.main__card-views 3K Views
+        .main__card-description Structured gripped tape invisible moulded cups for sauppor firm hold strong powermesh front liner
 main
     .main
         +topic-card("Lifestyle","Right For Your Exercise Regime", "../media/png/1.png")
